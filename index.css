@@ -82,3 +82,35 @@ nav ul li:hover{
     transition: all 0.6s;
     right:-40vh;
 }
+.cards{
+    max-width: 50vh;
+    border:2px solid rgba(4,7,20,0.7);
+    margin:5vw auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px rgba(4,7,20,0.7);
+}
+.onecard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.onecard img{
+    max-width:200px;
+}
+.cards h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    text-decoration: underline pink;
+}
+.opt{
+    margin: auto;
+}
+.opt input{
+border-radius: 50%;
+
+}
