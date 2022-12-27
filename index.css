@@ -1,7 +1,7 @@
 .header{
     width: 100%;
     min-height: 100vh;
-    background-image: url("images/banner.png");
+    background-image: linear-gradient(rgba(4,7,20,0.7),rgba(4,7,20,0.7)),url("images/banner.png");
     background-position: center;
     background-size: cover;
 }
@@ -20,6 +20,7 @@ nav img{
 nav ul li{
     margin-right:40px;
     padding: 5px;
+    color:#fff;
 }
 nav ul li:hover{
     cursor: pointer;
